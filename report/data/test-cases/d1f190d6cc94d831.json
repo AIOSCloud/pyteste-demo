@@ -1,0 +1,121 @@
+{
+  "uid" : "d1f190d6cc94d831",
+  "name" : "test_delete_shopping_trolley",
+  "fullName" : "test.test_shopping_trolley.TestShoppingTrolley#test_delete_shopping_trolley",
+  "historyId" : "bf73a6a3cde8f81e9ee626456639109f",
+  "time" : { },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 本次不执行",
+  "statusTrace" : "('test/test_shopping_trolley.py', 26, 'Skipped: 本次不执行')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1548919799270,
+      "stop" : 1548919799270,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: '/Users/icsoc/work/pytest/config/env_config.yml'\n",
+    "statusTrace" : "  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/_pytest/fixtures.py\", line 923, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/_pytest/fixtures.py\", line 782, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/Users/icsoc/work/pytest/test/conftest.py\", line 15, in env\n    with open(config_path) as f:\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Skipped: 本次不执行",
+    "statusTrace" : "('test/test_shopping_trolley.py', 26, 'Skipped: 本次不执行')",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab1108453d83cad1",
+      "name" : "log",
+      "source" : "ab1108453d83cad1.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "61ea9ef626b1d317",
+      "name" : "stdout",
+      "source" : "61ea9ef626b1d317.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "1ee83f2d2f09345b",
+      "name" : "stderr",
+      "source" : "1ee83f2d2f09345b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "story",
+    "value" : "删除购物车"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_shopping_trolley"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "xuchangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "42859-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_shopping_trolley"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11377cc2c4ad8cc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 本次不执行",
+      "time" : { }
+    }, {
+      "uid" : "728eea028a0d9790",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 本次不执行",
+      "time" : { }
+    }, {
+      "uid" : "5e0cdb5f284f83ee",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 本次不执行",
+      "time" : { }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1f190d6cc94d831.json",
+  "parameterValues" : [ ]
+}

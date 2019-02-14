@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="2" time="0.063"><testcase classname="faild_test" file="faild_test.py" line="0" name="test_faild" time="0.0021004676818847656"><failure message="assert (1, 2, 3) == (3, 2, 1)
+  At index 0 diff: 1 != 3
+  Use -v to get the full diff">def test_faild():
+&gt;       assert (1,2,3)==(3,2,1)
+E       assert (1, 2, 3) == (3, 2, 1)
+E         At index 0 diff: 1 != 3
+E         Use -v to get the full diff
+
+faild_test.py:2: AssertionError</failure></testcase><testcase classname="pass_test" file="pass_test.py" line="0" name="test_passing" time="0.0007338523864746094"></testcase></testsuite>

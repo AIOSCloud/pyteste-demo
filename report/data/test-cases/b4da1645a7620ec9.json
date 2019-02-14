@@ -1,0 +1,119 @@
+{
+  "uid" : "b4da1645a7620ec9",
+  "name" : "test_edit_shopping_trolley",
+  "fullName" : "test.test_shopping_trolley.TestShoppingTrolley#test_edit_shopping_trolley",
+  "historyId" : "4748da45f5f89cf212d8a7b9460dc92a",
+  "time" : {
+    "start" : 1548922406032,
+    "stop" : 1548922406032,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1548922405965,
+      "stop" : 1548922405965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17fd19430abb7727",
+      "name" : "log",
+      "source" : "17fd19430abb7727.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c271cb7e5506d86b",
+      "name" : "stdout",
+      "source" : "c271cb7e5506d86b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "da85f37bfa830d24",
+      "name" : "stderr",
+      "source" : "da85f37bfa830d24.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "story",
+    "value" : "修改购物车"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_shopping_trolley"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "xuchangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43503-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_shopping_trolley"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8f51ec54d64922c0",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '/Users/icsoc/work/pytest/config/env_config.yml'",
+      "time" : { }
+    }, {
+      "uid" : "72a2bd4559c26ae5",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'env_config' is not defined",
+      "time" : { }
+    }, {
+      "uid" : "87613daf1086c557",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'environment'",
+      "time" : { }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4da1645a7620ec9.json",
+  "parameterValues" : [ ]
+}

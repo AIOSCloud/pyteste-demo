@@ -1,0 +1,104 @@
+{
+  "uid" : "b497d15df8dbfda5",
+  "name" : "test_add_shopping_trolley",
+  "fullName" : "test.test_shopping_trolley.TestShoppingTrolley#test_add_shopping_trolley",
+  "historyId" : "3b6a961107c5df5b1f9c0c194610f03c",
+  "time" : { },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'allure' has no attribute 'environment'",
+  "statusTrace" : "request = <SubRequest 'env' for <Function test_add_shopping_trolley>>\n\n    @pytest.fixture(scope=\"session\", autouse=True)\n    def env(request):\n        \"\"\"\n        Parse env config info\n        \"\"\"\n        root_dir = request.config.rootdir\n        config_path = '{0}/config/env_config.yml'.format(root_dir)\n        with open(config_path) as f:\n            env_config = yaml.load(f) # 读取配置文件\n    \n>       allure.environment(host=env_config['host']['domain']) # 测试报告中展示host\nE       AttributeError: module 'allure' has no attribute 'environment'\n\ntest/conftest.py:18: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1548921964086,
+      "stop" : 1548921964086,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'allure' has no attribute 'environment'\n",
+    "statusTrace" : "  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/_pytest/fixtures.py\", line 923, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/_pytest/fixtures.py\", line 782, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/Users/icsoc/work/pytest/test/conftest.py\", line 18, in env\n    allure.environment(host=env_config['host']['domain']) # 测试报告中展示host\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'allure' has no attribute 'environment'",
+    "statusTrace" : "request = <SubRequest 'env' for <Function test_add_shopping_trolley>>\n\n    @pytest.fixture(scope=\"session\", autouse=True)\n    def env(request):\n        \"\"\"\n        Parse env config info\n        \"\"\"\n        root_dir = request.config.rootdir\n        config_path = '{0}/config/env_config.yml'.format(root_dir)\n        with open(config_path) as f:\n            env_config = yaml.load(f) # 读取配置文件\n    \n>       allure.environment(host=env_config['host']['domain']) # 测试报告中展示host\nE       AttributeError: module 'allure' has no attribute 'environment'\n\ntest/conftest.py:18: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e2211c1454b8a5c",
+      "name" : "log",
+      "source" : "9e2211c1454b8a5c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e50bafb66e16db68",
+      "name" : "stdout",
+      "source" : "e50bafb66e16db68.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "8448b1ca8f793361",
+      "name" : "stderr",
+      "source" : "8448b1ca8f793361.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_shopping_trolley"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "xuchangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43347-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_shopping_trolley"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b497d15df8dbfda5.json",
+  "parameterValues" : [ ]
+}

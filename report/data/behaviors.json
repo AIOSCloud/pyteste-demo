@@ -1,0 +1,53 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "购物车功能",
+    "children" : [ {
+      "name" : "删除购物车",
+      "children" : [ {
+        "name" : "test_delete_shopping_trolley",
+        "uid" : "d1f190d6cc94d831",
+        "parentUid" : "1b717cbf37b9cf06ec3ca303280da195",
+        "status" : "skipped",
+        "time" : { },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b717cbf37b9cf06ec3ca303280da195"
+    }, {
+      "name" : "加入购物车",
+      "children" : [ {
+        "name" : "test_add_shopping_trolley",
+        "uid" : "7e3a0f6801cbfe8e",
+        "parentUid" : "ed338301c086e720db609d05a252abd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1548922405966,
+          "stop" : 1548922405968,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed338301c086e720db609d05a252abd1"
+    }, {
+      "name" : "修改购物车",
+      "children" : [ {
+        "name" : "test_edit_shopping_trolley",
+        "uid" : "b4da1645a7620ec9",
+        "parentUid" : "ae6d31c7cac134cf64ad933d19936493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1548922406032,
+          "stop" : 1548922406032,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae6d31c7cac134cf64ad933d19936493"
+    } ],
+    "uid" : "13107ad838d9e0b8da43e1b977ff0d34"
+  } ]
+}

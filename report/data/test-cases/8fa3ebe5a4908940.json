@@ -1,0 +1,104 @@
+{
+  "uid" : "8fa3ebe5a4908940",
+  "name" : "test_add_shopping_trolley",
+  "fullName" : "test.test_shopping_trolley.TestShoppingTrolley#test_add_shopping_trolley",
+  "historyId" : "3b6a961107c5df5b1f9c0c194610f03c",
+  "time" : { },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'env_config' is not defined",
+  "statusTrace" : "request = <SubRequest 'env' for <Function test_add_shopping_trolley>>\n\n    @pytest.fixture(scope=\"session\", autouse=True)\n    def env(request):\n        \"\"\"\n        Parse env config info\n        \"\"\"\n        root_dir = request.config.rootdir\n    #    config_path = '{0}/config/env_config.yml'.format(root_dir)\n    #    with open(config_path) as f:\n    #        env_config = yaml.load(f) # 读取配置文件\n    \n    #    allure.environment(host=env_config['host']['domain']) # 测试报告中展示host\n    #    allure.environment(browser=env_config['host']['browser']) # 测试报告中展示browser\n    \n>       return env_config\nE       NameError: name 'env_config' is not defined\n\ntest/conftest.py:21: NameError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1548922366061,
+      "stop" : 1548922366061,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'env_config' is not defined\n",
+    "statusTrace" : "  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/_pytest/fixtures.py\", line 923, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/icsoc/.virtualenvs/pytest/lib/python3.6/site-packages/_pytest/fixtures.py\", line 782, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/Users/icsoc/work/pytest/test/conftest.py\", line 21, in env\n    return env_config\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'env_config' is not defined",
+    "statusTrace" : "request = <SubRequest 'env' for <Function test_add_shopping_trolley>>\n\n    @pytest.fixture(scope=\"session\", autouse=True)\n    def env(request):\n        \"\"\"\n        Parse env config info\n        \"\"\"\n        root_dir = request.config.rootdir\n    #    config_path = '{0}/config/env_config.yml'.format(root_dir)\n    #    with open(config_path) as f:\n    #        env_config = yaml.load(f) # 读取配置文件\n    \n    #    allure.environment(host=env_config['host']['domain']) # 测试报告中展示host\n    #    allure.environment(browser=env_config['host']['browser']) # 测试报告中展示browser\n    \n>       return env_config\nE       NameError: name 'env_config' is not defined\n\ntest/conftest.py:21: NameError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63286714b6671da1",
+      "name" : "log",
+      "source" : "63286714b6671da1.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "9b587494f5c5b8a",
+      "name" : "stdout",
+      "source" : "9b587494f5c5b8a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "35d416ed2496f55b",
+      "name" : "stderr",
+      "source" : "35d416ed2496f55b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "story",
+    "value" : "加入购物车"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_shopping_trolley"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "xuchangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_shopping_trolley"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fa3ebe5a4908940.json",
+  "parameterValues" : [ ]
+}

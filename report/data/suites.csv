@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jan 31 16:13:25 CST 2019","Thu Jan 31 16:13:25 CST 2019","2","test","test_shopping_trolley","TestShoppingTrolley","","","test_add_shopping_trolley",""
+"skipped","","","","test","test_shopping_trolley","TestShoppingTrolley","","","test_delete_shopping_trolley",""
+"passed","Thu Jan 31 16:13:26 CST 2019","Thu Jan 31 16:13:26 CST 2019","0","test","test_shopping_trolley","TestShoppingTrolley","","","test_edit_shopping_trolley",""
